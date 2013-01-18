@@ -1,0 +1,193 @@
+.brownbox {
+	color:#FFFFFF;
+	font-family: Arial, Verdana;
+	padding: 15px;
+	font-weight: bolder;
+	font-style: italic;
+	letter-spacing:4px;
+}
+
+.testpic {
+	background:#EDF6D9;
+	float:top;
+	padding:5px;
+}
+
+.pertrain {
+	FONT-FAMILY: Arial, Verdana;
+	padding:50px;
+	padding-right:12px;
+	padding-left:12px;
+	background:#107449;
+	font-size:15;
+}
+
+body {
+	background-color:#6D5533;
+	background-size:100%;
+}
+
+td.testimonial {
+	background-color:#969B7E;
+	padding: 15px;
+	font-family:Arial, Verdana;
+}
+
+.nav {
+	background-color: #EBF6DF;
+	background-repeat: repeat_x;
+	background-position: top;
+	padding: 0px 5px;
+	line-height: 18px;
+}
+
+.nav a {
+FONT-WEIGHT: bold;
+FONT-SIZE: 12px;
+COLOR: #FFFFFF;
+FONT-FAMILY: Arial, Verdana;
+TEXT-DECORATION: underline;
+}
+
+tr.d1 {
+background-color:#969B7E;
+color:black;
+}
+
+tr.d2 {
+background-color:#6D5533;
+color:black;
+
+}
+
+tr.d3 {
+background-color:#107449;
+color:black;
+}
+
+.comm1 {
+	background:#433422;
+	color:#FFFFFF;
+	font-family:Arial, Verdana;
+
+}
+
+.comm2 {
+	background:#0C5837;
+	color:#FFFFFF;
+	font-family:Arial, Verdana;
+
+}
+
+.comm1 td	{
+	padding:10px;
+	
+
+}
+
+.comm2 td {
+	padding:10px;
+}
+
+.roster1 td {
+	background:#107449;
+	font-family:Arial, Verdana;
+	Color:#FFFFFF;
+	padding:5px;
+}
+
+.roster2 td {
+	background:#109049;
+	font-family:Arial, Verdana;
+	Color:#FFFFFF;
+	padding:5px;
+
+}
+
+.position td {
+	font-family:Arial, Verdana;
+	Color:#FFFFFF;
+
+
+}
+
+.roster_head {
+	font-family:Arial, Verdana;
+	Color:#FFFFFF;
+	background:#6D5533;
+
+}
+
+#slider {
+	width:600px;
+	height:269px;
+	position:relative;
+	overflow:hidden;
+}
+
+#mask-gallery {
+	overflow:hidden;
+}
+
+#gallery {
+	list-style:none;
+	margin:0;
+	padding:0;
+	z-index:0;
+	width:1800px;
+	overflow:hidden;
+}
+
+#gallery li {
+	float:left;
+}
+
+#mask-exceprt {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:500;
+	width:200px;
+	overflow:hidden;
+}
+
+#exceprt {
+	filter:alpha(opacity=60);
+    -moz-opacity:0.6;  
+    -khtml-opacity: 0.6;
+    opacity: 0.6; 
+
+	 list-style:none;
+    margin:0;
+    padding:0;
+
+	 z-index:10;
+    position:absolute;
+    top:0;
+    left:0;
+
+	width:100px;
+    background-color:#000;
+    overflow:hidden;
+    font-family:arial;
+    font-size:10px;
+    color:#fff; 
+}
+
+#excerpt li {
+	padding:5px;
+}
+
+.clear {
+	clear:both;
+}
+
+#newsItem {
+	cursor:pointer;
+	font-family:Arial, Verdana;
+	color:#FFFFFF;
+	background-color:#107147;
+	margin:5px;
+	padding:10px;
+	text-align:center;
+}
