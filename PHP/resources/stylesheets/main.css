@@ -1,0 +1,385 @@
+@font-face {
+  font-family: candal;
+  src: url('/PHP/resources/fonts/candal/Candal.ttf');
+}
+
+html {
+  font-family: Arial, verdana;
+  color: #FFFFFF;
+}
+
+body {
+  width: 100%;
+  background-color:#6D5533;
+}
+
+#container {
+  margin:auto;
+  width: 825px;
+  background-color:#EBF6DF;
+  min-width: 626px;
+  padding-bottom: 20px;
+}
+
+/*
+ * Clearfix hack - makes parent div stretch
+ * to heigh of content div
+ */
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+html .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+/*
+ * MAIN BANNER
+ */
+
+#header-banner-container {
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#EBF6DF;
+  width:100%;
+  height: 140px;
+}
+
+#header-banner-container a {
+  text-decoration: none;
+}
+
+#header-banner-inner-container {
+  position: relative;
+  top: -60px;
+}
+
+#header-banner-inner {
+  background:linear-gradient(to top, #006846, #96D5BD);
+  width: 90%;
+  position: relative;
+  margin: 5px auto 5px auto;
+  height: 80px;
+  top: 50px;
+}
+
+#header-banner-logo {
+  float:left;
+  margin-left:85px; 
+}
+
+#header-banner-logo img {
+  max-height: 140px;
+}
+
+#header-banner-text {
+  margin-top:10px;
+  margin-left:40px;
+}
+
+#header-banner-text span {
+  font-family:candal;
+  font-style:italic;
+  margin-bottom: 2px;
+  display: block;
+  color:#6C533A;
+  font-weight: 900;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+
+/*
+ * DROP DOWN NAV MENU
+ */
+#main-nav-bar {
+  overflow: visible;
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:12px;
+  font-weight:bold; 
+}
+#main-nav-bar nav {
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-nav-bar nav ul ul {
+  display: none;
+}
+
+#main-nav-bar nav ul li:hover > ul {
+  display: block;
+}
+
+#main-nav-bar nav ul {
+  background: #29825C;
+  background: linear-gradient(to bottom, #29825C, #4B9575);
+  padding: 0px 20px;
+  border-radius: 10px;
+  list-style: none;
+  position: relative;
+  top: -30px;
+  display: inline-table;
+}
+
+#main-nav-bar nav ul:after {
+  content: "";
+  clear: both;
+  display:block;
+}
+
+#main-nav-bar nav ul li {
+  float: left;
+  padding: 8px 2px;
+}
+
+#main-nav-bar nav ul li:hover {
+  background: #1D5B40;
+  background: linear-gradient(to bottom, #1D5B40, #346852);
+}
+
+#main-nav-bar nav ul li:hover a {
+  color:#FFFFFF;
+}
+
+#main-nav-bar nav ul li a {
+  display: block;
+  padding: 2px 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#main-nav-bar nav ul ul {
+  background:#29825C;
+  border-radius: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 100%;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+#main-nav-bar nav ul ul li {
+  float: none;
+  border-top: 1px solid #6E9685; 
+  position:relative;
+}
+
+#main-nav-bar nav ul ul li a {
+  padding: 2px 5px;
+  color: #FFFFFF;
+}
+
+/*
+ * INDEX PAGE FILLER
+ */
+#index-tag-line {
+  background: #6D5533;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 15px;
+  padding: 20px 0px 20px 0px; 
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+} 
+
+#social-networking {
+  background: #107449;
+  width: 95%;
+  margin: 5px auto 5px auto;
+  padding: 5px 0 5px 0;
+}
+
+#social-networking div {
+  margin: 5px;
+}
+
+#fb-text {
+  float: right;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#fb-text a {
+  text-decoration: underline;
+  color: #3B5998;
+}
+
+#about-panel {
+  background:#EBF6DF !important;
+  text-align: center;
+  color: #107449;
+  padding: 30px 15px 20px 15px !important;
+  border: 4px solid #107449;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+#about-panel a {
+  color: #107449 !important;
+}
+
+#final-panel {
+  
+}
+
+#logo-panel {
+  float: left;
+}
+
+#cross-fit-panel {
+  float: left;s
+  margin-left: 10px !important;
+  padding: 30px 10px 30px 10px;
+  font-size: 14px;
+}
+
+/*
+ * TESTIMONIALS
+ */
+#testimonials-container {
+  font-size: 12px;
+  color: #000000;
+  width: 22%;
+  float: left;
+}
+
+#testimonials-title {
+  margin: 5px auto 0 auto;
+  font-size: 14px;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+
+.testimonial {
+  margin-bottom: 15px;
+}
+
+.testimonial-img {
+  margin: 5px 0 0 5px;
+}
+
+.testimonial-text {
+  margin: 20px 0 0 5px;
+}
+
+.testimonial-text span {
+  font-style: italic;
+  padding: 0 10px 0 10px;
+  margin-bottom:10px;
+  display: block;
+}
+
+.testimonial-img img {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/*
+ * FOOTER
+ */
+#footer-container {
+  background: #006846;
+  background: linear-gradient(to bottom, #006846, #95D4BC);  
+  margin:20px auto 0px auto;
+  width: 90%;
+  padding: 15px 0px 15px 40px;
+  clear: both;
+}
+
+#footer-text {
+  transform: scale(2,1) translate(180px, 0px);
+  -webkit-transform:scale(2,1) translate(180px, 0px); /* Safari and Chrome */
+}  
+
+#footer-container a {  
+  text-decoration:none;
+  color: #EBF6DF;
+  font-family: candal;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/*
+ * FRONT PAGE NEWS ITEMS
+ */
+#news-stories-container {
+  width: 613px;
+  float: right;
+  font-size: 13px;
+}
+
+#news-stories-container a {
+  color: #FFFFFF;
+}
+
+#top-story {
+  background:#107449;
+}
+
+#top-story-title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+#news-stories-container > div {
+  margin: 10px 15px 10px 15px;
+  padding: 8px 8px 8px 8px;
+  background:#107449;
+  
+}
+#news-stories-container img {
+  max-width: 300px;
+  display: block;
+  margin: 3px auto 10px auto;  
+}
+
+.news-story {
+  text-align: center;
+}
+
+/*
+ * COACHES
+ */
+.coach-profile {
+  color: #000000;
+  background: #969B7E;
+  margin: 0px 10px 10px 10px;
+}
+.coach-profile img {
+  margin: 10px 20px 10px 20px;
+  max-height: 150px;
+  float: left;
+}
+
+.coach-profile div {
+  padding: 8px;
+}
+
+.coach-profile h1 {
+  padding-top: 10px;
+}
