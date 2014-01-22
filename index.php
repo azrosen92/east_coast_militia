@@ -7,6 +7,9 @@ $root_path = $_SERVER['DOCUMENT_ROOT'];
   <head>
     <title>Home of the East Coast Militia</title>
     <link rel="stylesheet" type="text/css" href="resources/stylesheets/main.css" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts.js" ></script>
   </head>
   <body>
     <div id="container" class="clearfix">
@@ -37,10 +40,10 @@ $root_path = $_SERVER['DOCUMENT_ROOT'];
         </div>
       </div>
       <div id="main-content-container">
-        <?php include $root_path.'/resources/partials/main_page_testimonials.html'; ?> 
-        <?php include $root_path.'/resources/partials/front_page_news.php'; ?>
+        <?php include 'resources/partials/main_page_testimonials.html'; ?> 
+        <?php include 'resources/partials/front_page_news.php'; ?>
       </div>
-      <?php include $root_path.'/resources/partials/footer.html'; ?>     
+      <?php include 'resources/partials/footer.html'; ?>     
     </div>
   </body>
 </html>

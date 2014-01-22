@@ -1,6 +1,6 @@
 @font-face {
   font-family: candal;
-  src: url('/PHP/resources/fonts/candal/Candal.ttf');
+  src: url('/resources/fonts/candal/Candal.ttf');
 }
 
 html {
@@ -19,6 +19,7 @@ body {
   background-color:#EBF6DF;
   min-width: 626px;
   padding-bottom: 20px;
+  overflow-x: hidden;
 }
 
 /*
@@ -361,6 +362,32 @@ html .clearfix {
 
 .news-story {
   text-align: center;
+}
+
+.content {
+  display: none;
+}
+
+.news-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ui-dialog-content {
+  background-color: #6D5533;
+  padding: 8px;
+}
+.ui-dialog-titlebar {
+  background: #EBF6DF;
+  padding: 8px;
+}
+.ui-dialog {
+  border: 2px solid black;
+}
+.ui-button {
+  color: #fff;
+  background: #107449;
+  padding: 4px;
 }
 
 /*
