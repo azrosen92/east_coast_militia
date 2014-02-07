@@ -50,7 +50,7 @@
           && !empty($_POST['player_first_name'])
           && !empty($_POST['player_last_name'])) {
   
-        $secret = "56KE6hhw99w929M3"; //transaction key
+        $secret = "67wy5VBNKk23bm8P"; //transaction key
         $login = "4UkE94cQ"; //API login id
         $type = "AUTH_CAPTURE";
         $show_form = "PAYMENT_FORM";
