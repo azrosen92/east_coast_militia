@@ -47,7 +47,7 @@
 					<table width="100%" border="0" cellpadding="3" cellspacing="3">
 						<form method="post" action="gdform.php">
 							<input type="hidden" name="subject" value="East Coast Militia Prospective Player" />
-							<input type="hidden" name="redirect" value="index.html" />
+							<input type="hidden" name="redirect" value="index.php" />
 							<table style="font-family:arial,verdana; color:#FFFFFF;" align="center" class="form_table">
 								<tr><td align="right">Name:</td><td><input type="text" name="name"></td></tr>
 								<tr><td align="right">Date of Birth:</td><td><input type="date" name="birthday"></td></tr>
